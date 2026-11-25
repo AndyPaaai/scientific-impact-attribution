@@ -1,0 +1,33 @@
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# External raw datasets (must be downloaded from official sources; never commit)
+*.xlsx
+*.xls
+data/
+inputs/
+
+# Generated analytical outputs and figures (reproduced locally via src/code.R)
+output/
+results/
+results_R/
+figures/
+figures_R/
+reference_results/
+
+# Temporary manuscripts and personal documents
+*.docx
+*.doc
+*.pdf
+~$*
+
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
