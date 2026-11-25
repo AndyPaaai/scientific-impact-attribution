@@ -96,23 +96,7 @@ You can provide the locations of the three downloaded `.xlsx` files and an outpu
 
 ---
 
-## 6. Generated Outputs
-
-Running [`src/code.R`](src/code.R) writes all outputs to `<output_dir>/results_R/` and `<output_dir>/figures_R/`:
-
-- **Manuscript tables (`results_R/`):**
-  - `Table_1_analytical_sample_and_discordance.csv` (and `summary.csv`) $\rightarrow$ **Table 1** & **Figure 2**
-  - `Table_2_income_group_distribution.csv` (and `income_groups.csv`) $\rightarrow$ **Table 2** & **Figure 3**
-  - `Table_S1_country_changes.csv` – `Table_S7_cosmo_discordance.csv` (automatically verified against [`supplementary material/`](supplementary%20material/)) and diagnostic CSVs (`bilateral_disagreements.csv`, `coverage_sensitivity.csv`, `dominance_sensitivity.csv`, `multinational_footprint.csv`, `unmapped_income_codes.csv`, `missingness.csv`, `wb_income_fy26_codebook.csv`).
-- **Manuscript figures (`figures_R/`, exported in 180 DPI `.png` and vector `.svg`):**
-  - `Figure_1_country_changes` (**Figure 1:** Top 25 national researcher changes $B - A$ in career cohort, $N_A \ge 100$)
-  - `Figure_2_concentration` (**Figure 2:** Two-panel HHI and Gini comparison across cohorts and scenarios)
-  - `Figure_3_income_groups` (**Figure 3:** Two-panel net changes $B - A$ across World Bank FY2026 income groups)
-  - `Figure_4_income_transitions` (**Figure 4:** Career $4 \times 4$ cross-income attribution matrix with $\log_{10}(N + 1)$ shading)
-
----
-
-## 7. Supplementary Materials (S1–S7)
+## 6. Supplementary Materials (S1–S7)
 
 | ID | File in `supplementary material/` | Description |
 | :--- | :--- | :--- |
@@ -126,30 +110,16 @@ Running [`src/code.R`](src/code.R) writes all outputs to `<output_dir>/results_R
 
 ---
 
-## 8. Methodological Notes
+## 7. Methodological Notes
 
 - **Direction of differences ($B - A$):** All net changes represent the shift when moving from Scenario A (recent affiliation) to Scenario B (predominant career country).
 - **Interpretation:** Predominant-country attribution assigns each researcher as a single unit and does not constitute fractional credit allocation. Multinational publication profiles (`cosmo = 1`) and scenario discordance reflect cross-national publication structures rather than confirmed physical migration.
 
 ---
 
-## 9. GitHub / Zenodo Repository Checklist
-
-- [x] 1. Final R script: clean, documented and reproducible.
-- [x] 2. README with complete execution instructions.
-- [x] 3. Seven supplementary CSV files (S1–S7).
-- [x] 4. Technical output files required to reproduce manuscript tables.
-- [x] 5. Code for reproducing all four manuscript figures.
-- [x] 6. Dependency specification and package versions.
-- [x] 7. Formal citation of the original Ioannidis dataset.
-- [ ] 8. DOI of the archived repository version on Zenodo *(pending Zenodo archive release)*.
-
----
-
-## 10. Citations, License, and Contact
+## 8. Citations, License, and Contact
 
 - **Ioannidis Dataset:** Ioannidis, J. P. A. (2026). *August 2026 data-update for "Updated science-wide author databases of standardized citation indicators"* (Version 9) [Dataset]. Elsevier Data Repository. https://doi.org/10.17632/btchxktzyw.9
 - **World Bank Classification:** World Bank. (2025). *World Bank Country and Lending Groups: Historical classification by income (FY2026, `CLASS_2025_07_02.xlsx`)* [Dataset]. https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups (Catalog reference: https://reproducibility.worldbank.org/catalog/624)
-- **Study & Repository:** Acosta-Monterrosa, A. A. (2026). *Whose scientific impact? How country attribution rules shape the geography of highly cited researchers*. Code and supplementary data: https://github.com/AndyPaaai/scientific-impact-attribution (Zenodo DOI: *Pending archival release*).
 - **License:** Repository code is licensed under the [MIT License](LICENSE). Original datasets remain subject to Elsevier Data Repository and World Bank Open Data terms.
 - **Author:** Andy A. Acosta-Monterrosa
