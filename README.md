@@ -1,9 +1,13 @@
 # Whose Scientific Impact? Cross-National Affiliations and the Geography of Highly Cited Researchers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24519809.svg)](https://doi.org/10.5281/zenodo.24519809)
+
 Reproducibility repository for the study:
 
 > **Whose Scientific Impact? Cross-National Affiliations and the Geography of Highly Cited Researchers**  
 > *(Manuscript title: Whose scientific impact? How country attribution rules shape the geography of highly cited researchers)*
+>
+> **Zenodo DOI:** https://doi.org/10.5281/zenodo.24519809
 
 ---
 
@@ -119,6 +123,7 @@ You can provide the locations of the three downloaded `.xlsx` files and an outpu
 
 ## 8. Citations, License, and Contact
 
+- **Repository (Zenodo Archive):** Andy A. Acosta-Monterrosa. (2026). *Whose scientific impact? How country attribution rules shape the geography of highly cited researchers* (Version v1.0). Zenodo. https://doi.org/10.5281/zenodo.24519809
 - **Ioannidis Dataset:** Ioannidis, J. P. A. (2026). *August 2026 data-update for "Updated science-wide author databases of standardized citation indicators"* (Version 9) [Dataset]. Elsevier Data Repository. https://doi.org/10.17632/btchxktzyw.9
 - **World Bank Classification:** World Bank. (2025). *World Bank Country and Lending Groups: Historical classification by income (FY2026, `CLASS_2025_07_02.xlsx`)* [Dataset]. https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups (Catalog reference: https://reproducibility.worldbank.org/catalog/624)
 - **License:** Repository code is licensed under the [MIT License](LICENSE). Original datasets remain subject to Elsevier Data Repository and World Bank Open Data terms.
